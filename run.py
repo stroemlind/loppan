@@ -55,7 +55,7 @@ while True:
     try:
         option = int(input('Where do you want to go? Enter number here: '))
     except ValueError as e:
-        print(f'Invalid data: {e}, please enter a number between 0 to 3 and try again.\n')
+        print(f'Invalid data: {e}, try again.\n')
 
     if option == 1:
         about_game()
@@ -67,7 +67,7 @@ while True:
         exit()
         break
     else:
-        print('Invalid Option. Please chose a number between 0 and 3')
+        print('Please chose a number between 0 and 3')
 
 
 print('Thank you for visiting "Loppan". Please comeback again')
