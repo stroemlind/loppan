@@ -42,7 +42,7 @@ def create_own():
     print('Handle option \'Create Your Own "Loppa"\'\n')
 
 
-def exit():
+def exit_game():
     """
     The user will exit the game
     """
@@ -64,7 +64,7 @@ while True:
     elif option == 3:
         create_own()
     elif option == 0:
-        exit()
+        exit_game()
         break
     else:
         print('Please chose a number between 0 and 3')
