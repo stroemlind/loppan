@@ -25,28 +25,28 @@ def about_game():
     """
     Will print information about the Game for the user
     """
-    print('Handle option "About Game"')
+    print('Handle option "About Game"\n')
 
 
 def play_game():
     """
     Will Print rules and start the game for the user.
     """
-    print('Handle option "Play Game"')
+    print('Handle option "Play Game"\n')
 
 
 def create_own():
     """
     Will print information about how the user can make their own 'Loppa'
     """
-    print('Handle option \'Create Your Own "Loppa"\'')
+    print('Handle option \'Create Your Own "Loppa"\'\n')
 
 
 def exit():
     """
     The user will exit the game
     """
-    print('Exit Game')
+    print('Exit Game \n')
 
 
 while True:
@@ -54,8 +54,8 @@ while True:
     option = ''
     try:
         option = int(input('Where do you want to go? Enter number here: '))
-    except:
-        print('Wrong input. Please enter a number')
+    except ValueError as e:
+        print(f'Invalid data: {e}, please enter a number between 0 to 3 and try again.\n')
 
     if option == 1:
         about_game()
