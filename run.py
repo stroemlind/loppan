@@ -25,7 +25,18 @@ def about_game():
     """
     Will print information about the Game for the user
     """
-    print('Handle option "About Game"\n')
+    print("""
+    About the Game Loppan
+    Loppan is the Swedish name for the childrens game: fortune teller,
+    cootie catcher, chatterbox, salt cellar, whirlybird, or paku-paku.
+    Loppan is a form of origami and made out of paper. The loppa are labeled
+    with colors and/or numbers.
+    These serve as an option for the player to choose. Inside each label,
+    there is a message or a task for the player to execute.
+    The person operating the loppa manipulates the device based on the choices
+    made by the player, often folding the loppa a certain amount of time
+    and then revealing one of the hidden messages chosen by the player.
+    """)
 
 
 def play_game():
