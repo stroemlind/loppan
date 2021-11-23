@@ -50,7 +50,35 @@ def create_own():
     """
     Will print information about how the user can make their own 'Loppa'
     """
-    print('Handle option \'Create Your Own "Loppa"\'\n')
+    print("""
+    Create Your Own
+    To make a Loppa/fortune teller, you need:
+        * a piece of A4 paper or a squared shape paper
+        * scissor
+        * pencils
+
+    Instructions:
+    1. Fold the corners of a sheet of paper so they meet up
+        on the opposite sides.
+        If the paper is not a square, cut the top off,
+        making it a square sheet with diagonal creases.
+
+    2. Fold the four corners of the square into the center,
+        forming a shape known in origami terminology as a
+        blintz base or cushion fold.
+        Turn the paper square over,
+        and fold the four corners into the middle a second time.
+
+    3. The top of the square should look like a squared cake with 8 slices.
+        On each slice, you can put a number or a color.
+        Open up one of the corners at a time and write a fortune
+        or a task under each slice.
+
+    4. When done, it should look like a folded cushion,
+        as at the end of step 2.
+        Work your fingers into the pockets on the backside of the cushion,
+        all the way into the four corners.
+    """)
 
 
 def exit_game():
