@@ -18,14 +18,31 @@ def get_player_num():
     data until the user input is valid.
     """
     print("""
-    Loppan will test your mathematical skills.
-    Follow the instruction provided. Let's start!
+Loppan will test your mathematical skills.
+Follow the instruction provided. Let's start!
 
     """)
-    print('Please choose a number between 1 to 10. ')
 
-    get_num = int(input('Enter your number here:\n'))
-    print(f'You entered {get_num}')
+    print('Please choose a number between 1 to 10.')
+    get_num = 0
+    while True:
+        try:
+            get_num = input('Enter your number here:\n')
+
+            player_num = int(get_num)
+
+            if player_num > 0 and player_num < 11:
+                print(f'Your choice is {player_num}')
+                break
+            else:
+                player_num < 0 and player_num > 11
+                print('Not a valid number. Please choose a number between 1 to 10')
+                continue
+        except ValueError:
+            print('Not a number: please try again.\n')
+            continue
+
+    return player_num
 
 
 get_player_num()
