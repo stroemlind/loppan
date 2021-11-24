@@ -3,9 +3,9 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 # Lists for the game functions
-from random import randint
+import random
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 color_list_one = ['red', 'green', 'orange', 'pink']
 color_list_two = ['blue', 'yellow', 'purple', 'brown']
 
@@ -78,10 +78,32 @@ def get_color(color_list):
 
 def math_quest(index):
     """
-    Hej
+    Get the player a math equation to solve,
+    depending on value from get_color function.
     """
-    num1 = 4
-    num2 = 2   
+    operator = ['+', '-', '*', '/']
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
+
+    if index == 0:
+        first, second = num1, num2
+        answer = num1+num2
+    elif index == 1:
+        if num1 > num2:
+            first, second = num1, num2
+        else:
+            first, second = num2, num1
+        answer = first - second
+    elif index == 2:
+        first, second = num1, num2
+        answer = num1*num2
+    elif index == 3:
+        num1 = num1*num2
+        first, second = num1, num2
+        answer = int(first/second)
+
+    print('What is ', first, operator[index], second, '?')
+    print(answer)
 
 
 get_player_num()
