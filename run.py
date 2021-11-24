@@ -41,8 +41,17 @@ Follow the instruction provided. Let's start!
         except ValueError:
             print('Not a number: please try again.\n')
             continue
+    get_color(player_num)
 
-    print(number)
+
+def get_color(player_num):
+    """
+    Get a list of colors.
+    """
+    if player_num % 2 == 0:
+        print(color_list_one)
+    else:
+        print(color_list_two)
 
 
 get_player_num()
