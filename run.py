@@ -64,7 +64,9 @@ def get_color_list(player_num):
 
 def get_color(color_list):
     """
-    Hej
+    Get a color input from the player.
+    Checks if the input value matches with options,
+    if input valid, runs a math function.
     """
     player_color = input('Enter your color choice:\n')
 
@@ -79,9 +81,7 @@ def math_quest(index):
     Hej
     """
     num1 = 4
-    num2 = 2
-
-    
+    num2 = 2   
 
 
 get_player_num()
