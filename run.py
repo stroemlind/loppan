@@ -48,7 +48,9 @@ Follow the instruction provided. Let's start!
 
 def get_color_list(player_num):
     """
-    Get a list of colors.
+    Get a list of colors displayed in terminal.
+    Check if number input value is an even or odd number,
+    print differnet list depending on number.
     """
     if player_num % 2 == 0:
         print('Choose a color:')
