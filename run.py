@@ -3,6 +3,8 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 # Lists for the game functions
+from random import randint
+
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 color_list_one = ['red', 'green', 'orange', 'pink']
 color_list_two = ['blue', 'yellow', 'purple', 'brown']
@@ -41,17 +43,43 @@ Follow the instruction provided. Let's start!
         except ValueError:
             print('Not a number: please try again.\n')
             continue
-    get_color(player_num)
+    get_color_list(player_num)
 
 
-def get_color(player_num):
+def get_color_list(player_num):
     """
     Get a list of colors.
     """
     if player_num % 2 == 0:
+        print('Choose a color:')
         print(color_list_one)
+        get_color(color_list_one)
     else:
+        print('Choose a color:')
         print(color_list_two)
+        get_color(color_list_two)
+
+
+def get_color(color_list):
+    """
+    Hej
+    """
+    player_color = input('Enter your color choice:\n')
+
+    if player_color in color_list:
+        for index, color in enumerate(color_list):
+            if color == player_color:
+                math_quest(index)
+
+
+def math_quest(index):
+    """
+    Hej
+    """
+    num1 = 4
+    num2 = 2
+
+    
 
 
 get_player_num()
