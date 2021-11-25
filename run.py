@@ -111,7 +111,21 @@ def math_quest(index):
         answer = int(first/second)
 
     print('What is ', first, operator[index], second, '?')
-    return answer
+    # return answer
+    get_answer(answer)
+
+
+def get_answer(answer):
+    """
+    Let player submit answer.
+    Check if answer provided is correct or not.
+    """
+    player_answer = int(input('Enter your answer here: '))
+
+    if player_answer == answer:
+        print(f'Hooray! {answer} is the right answer')
+    else:
+        print(f'Oh no, you got this one wrong! Its {answer}')
 
 
 get_player_num()
