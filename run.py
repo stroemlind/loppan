@@ -68,12 +68,20 @@ def get_color(color_list):
     Checks if the input value matches with options,
     if input valid, runs a math function.
     """
-    player_color = input('Enter your color choice:\n')
+    try:
+        player_color = input('Enter your color choice:\n')
 
-    if player_color in color_list:
-        for index, color in enumerate(color_list):
-            if color == player_color:
-                math_quest(index)
+        if player_color in color_list:
+            for index, color in enumerate(color_list):
+                if color == player_color:
+                    math_quest(index)
+
+        else:
+            print('Not valid color, please choose again.\n')
+            return player_color
+    except ValueError:
+        print('Not valid color, please choose again.\n')
+        return player_color
 
 
 def math_quest(index):
@@ -103,7 +111,7 @@ def math_quest(index):
         answer = int(first/second)
 
     print('What is ', first, operator[index], second, '?')
-    print(answer)
+    return answer
 
 
 get_player_num()
