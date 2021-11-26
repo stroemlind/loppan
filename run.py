@@ -66,7 +66,7 @@ def get_color(color_list):
     """
     Get a color input from the player.
     Checks if the input value matches with options,
-    if input valid, runs a math function.
+    if input is valid, runs a math function.
     """
     try:
         player_color = input('Enter your color choice:\n')
@@ -74,14 +74,12 @@ def get_color(color_list):
         if player_color in color_list:
             for index, color in enumerate(color_list):
                 if color == player_color:
+                    print(f'Your choice is {player_color}\n')
                     math_quest(index)
-
         else:
-            print('Not valid color, please choose again.\n')
-            return player_color
+            print(f'{player_color} is not a valid color, try again.\n')
     except ValueError:
-        print('Not valid color, please choose again.\n')
-        return player_color
+        print(f'{player_color} is not a valid color, please try again.\n')
 
 
 def math_quest(index):
@@ -118,7 +116,8 @@ def math_quest(index):
 def get_answer(answer):
     """
     Let player submit answer.
-    Check if answer provided is correct or not.
+    The input value has to be an integer.
+    Check if answer provided is correct or incorrect.
     """
     player_answer = int(input('Enter your answer here: '))
 
@@ -128,4 +127,9 @@ def get_answer(answer):
         print(f'Oh no, you got this one wrong! Its {answer}')
 
 
-get_player_num()
+def go_game():
+    get_player_num()
+    # math_quest(index)
+
+
+go_game()
