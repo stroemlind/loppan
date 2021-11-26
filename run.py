@@ -156,6 +156,11 @@ def about_game():
     The person operating the loppa manipulates the device based on the choices
     made by the player, often folding the loppa a certain amount of time
     and then revealing one of the hidden messages chosen by the player.
+    The game originates from Japan. The earliest record of using the Loppa in
+    the western world is from 1836. If you would like to know more,
+    you can visit these websites:
+    http://www.origamiheaven.com/historyofthesaltcellar.htm
+    https://en.wikipedia.org/wiki/Paper_fortune_teller
     """)
 
 
