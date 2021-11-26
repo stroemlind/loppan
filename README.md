@@ -42,7 +42,17 @@ image here
     The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
 
 ### Features Left to Implement
-## Technologies Used (explain various tech used, such as HTML, CSS, Balsamiq, TinyPNG, Gitpod, GitHub, Git, etc.)
+## Technologies Used
+* Python: Python is used to build the core structure and code for the project
+
+* Heroku: Heroku is the deployment environment used to deploy the project and connected with the GitHub repository
+
+* Gitpod: Gitpod is the development environment used for developing all the code during this project
+
+* GitHub: GitHub are used to store the repository for this project
+
+* Git: Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
+
 ## Testing Make own md file)
 ### Code Validation
 ### Browser Compatibility
