@@ -42,6 +42,8 @@ image here
     The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
 
 ### Features Left to Implement
+* A feature to implement would be to connect more "Loppor"/Fortune tellers; for example, the player could choose to play one with math or words or learn words from different languages.
+
 ## Technologies Used
 * Python: Python is used to build the core structure and code for the project
 
