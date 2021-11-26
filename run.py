@@ -70,12 +70,11 @@ def get_color(color_list):
     """
     try:
         player_color = input('Enter your color choice:\n')
-
         if player_color in color_list:
             for index, color in enumerate(color_list):
                 if color == player_color:
-                    print(f'Your choice is {player_color}\n')
-                    math_quest(index)
+                    print(f'Your choice is {player_color}.\n')
+                    # math_quest(index)
         else:
             print(f'{player_color} is not a valid color, try again.\n')
     except ValueError:
@@ -137,6 +136,7 @@ def print_menu():
     print('[3] Create Your Own "Loppa"')
     print('[0] Exit Game')
 
+
 def about_game():
     """
     Will print information about the Game for the user
@@ -154,11 +154,13 @@ def about_game():
     and then revealing one of the hidden messages chosen by the player.
     """)
 
+
 def play_game():
     """
     Will Print rules and start the game for the user.
     """
     get_player_num()
+
 
 def create_own():
     """
@@ -194,30 +196,39 @@ def create_own():
         all the way into the four corners.
     """)
 
+
 def exit_game():
     """
     The user will exit the game
     """
     print('Exit Game \n')
 
-while True:
-    print_menu()
-    option = ''
-    try:
-        option = int(input('Where do you want to go? Enter number here: \n'))
-    except ValueError as e:
-        print(f'Invalid data: {e}, try again.\n')
 
-    if option == 1:
-        about_game()
-    elif option == 2:
-        play_game()
-    elif option == 3:
-        create_own()
-    elif option == 0:
-        exit_game()
-        break
-    else:
-        print('Please chose a number between 0 and 3')
+def main():
+    """
+    The main function of the program.
+    """
+    while True:
+        print_menu()
+        option = ''
+        try:
+            option = int(input('Where do you want to go? Enter number:\n'))
+        except ValueError as e:
+            print(f'Invalid data: {e}, try again.\n')
 
-print('Thank you for visiting "Loppan". Please comeback again')
+        if option == 1:
+            about_game()
+        elif option == 2:
+            play_game()
+        elif option == 3:
+            create_own()
+        elif option == 0:
+            exit_game()
+            break
+        else:
+            print('Please chose a number between 0 and 3')
+
+    print('Thank you for visiting "Loppan". Please comeback again')
+
+
+main()
