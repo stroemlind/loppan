@@ -43,13 +43,13 @@ Follow the instruction provided. Let's start!
                 break
             else:
                 print('Please choose a valid number.')
-                time.sleep(1.5)
+                time.sleep(1.0)
                 continue
         except ValueError:
             print('Not a number: please try again.\n')
-            time.sleep(1.5)
+            time.sleep(1.0)
             continue
-    time.sleep(1.5)
+    time.sleep(1.0)
     get_color_list(player_num)
 
 
@@ -64,12 +64,12 @@ def get_color_list(player_num):
     if player_num % 2 == 0:
         for color in color_list_one:
             print(color, end=' ')
-        time.sleep(1.5)
+        time.sleep(1.0)
         get_color(color_list_one)
     else:
         for color in color_list_two:
             print(color, end=' ')
-        time.sleep(1.5)
+        time.sleep(1.0)
         get_color(color_list_two)
 
 
@@ -138,8 +138,10 @@ def get_answer(answer):
     clear()
     if player_answer == answer:
         print(f'Hooray! {answer} is the right answer\n')
+        time.sleep(1.0)
     else:
         print(f'Oh no, you got this one wrong! Its {answer}\n')
+        time.sleep(1.0)
 
 
 def print_menu():
@@ -177,13 +179,6 @@ def about_game():
     http://www.origamiheaven.com/historyofthesaltcellar.htm
     https://en.wikipedia.org/wiki/Paper_fortune_teller
     """)
-
-
-def play_game():
-    """
-    Will Print rules and start the game for the user.
-    """
-    get_player_num()
 
 
 def create_own():
@@ -259,7 +254,7 @@ def main():
         if option == 1:
             about_game()
         elif option == 2:
-            play_game()
+            get_player_num()
         elif option == 3:
             create_own()
         elif option == 0:
