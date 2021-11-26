@@ -4,6 +4,12 @@ It's a game where you create a "Loppa"/fortune teller with 8 different tasks or 
 
 amiresponisive image
 ## User Stories
+The User Stories for this project are the following:
+* A welcome menu that gives the user different options on how to proceed with the program. 
+* A section about the game with relevant information. Information such as game rules, the game's different names, and from where the game originates.
+* The game and all its functions and features.
+* Instructions on how the user can create their own paper Loppa.
+
 ### Colour Scheme (explain your colors, etc.... perhaps use coolors.co?)
 ### Workflow (include screenshots of your workflow)
 ## Features
