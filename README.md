@@ -56,11 +56,7 @@ image here
 * Git: Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
 
 ## Testing Make own md file)
-### Code Validation
-### Browser Compatibility
-### Responsiveness
-### Tested User Stories
-### Unfixed Bugs
+
 ## Deployment
 ### Local Deployment
 ## Credits
