@@ -134,18 +134,22 @@ def get_answer(answer):
     The input value has to be an integer.
     Check if answer provided is correct or incorrect.
     """
-    try:
-        player_answer = int(input('Enter your answer here: '))
-        clear()
-        if player_answer == answer:
-            print(f'Hooray! {answer} is the right answer\n')
+    while True:
+        try:
+            player_answer = int(input('Enter your answer here: '))
+            clear()
+            if player_answer == answer:
+                print(f'Hooray! {answer} is the right answer\n')
+                time.sleep(1.0)
+                break
+            else:
+                print(f'Oh no, you got this one wrong! Its {answer}\n')
+                time.sleep(1.0)
+                break
+        except ValueError:
+            print('Not a number: please try again.\n')
             time.sleep(1.0)
-        else:
-            print(f'Oh no, you got this one wrong! Its {answer}\n')
-            time.sleep(1.0)
-    except ValueError:
-        print('Not a number: please try again.\n')
-        time.sleep(1.0)
+            continue
 
 
 def print_menu():
