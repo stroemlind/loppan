@@ -10,7 +10,7 @@ The User Stories for this project are the following:
 * The game and all its functions and features.
 * Instructions on how the user can create their own paper Loppa.
 
-### Colour Scheme (explain your colors, etc.... perhaps use coolors.co?)
+### Colour Scheme (explain your colors, etc....)
 ### Workflow (include screenshots of your workflow)
 image here
 ## Features
@@ -74,7 +74,7 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Search for the project's repository name on GitHub and click "connect" to link GitHub with Heroku.
 * On the same page, scroll down and choose how to deploy the app. For this project, automatic deploys are selected and enabled.
 
-The live link can be found here - https://loppan.herokuapp.com/ 
+The live link can be found here - [https://loppan.herokuapp.com/](https://loppan.herokuapp.com/)
 
 ### Local Deployment
 ## Credits
