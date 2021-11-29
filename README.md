@@ -41,6 +41,7 @@ image here
 
 * Instructions on how the user can create their own paper Loppa
     The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
+    To make it easier for the user to follow the instruction one at a time, the user needs to press Enter to move forward with the instructions.
 
 ### Features Left to Implement
 * A feature to implement would be to connect more "Loppor"/Fortune tellers; for example, the player could choose to play one with math or words or learn words from different languages.
