@@ -58,6 +58,23 @@ image here
 ## Testing Make own md file)
 
 ## Deployment
+The site was deployed to Heroku. The steps to deploy are as follows:
+* Go to the Heroku site, sign up for free if you do not already have an account.
+    * If creating an account, fill in the signup form with name.
+* On the dashboard page, navigate to the Create New App button and click.
+* Give the app a unique name; it can not have the same name as another app, choose the region you are currently located in and select Create app.
+* On the apps dashboard page, navigate to the Settings tab.
+* On the Settings page, go down to the config vars section. 
+* Create a config var, set the key to PORT, value to 8000, and click add. 
+* Navigate down to Buildpacks and select "Add buildpacks".
+* Select python and click "Save changes". Click "Add buildpacks again and select nodejs, click "Save changes". Make sure that python is at the top of the list in the buildpacks field.
+* Navigate to the Deploy tab and down to the section called Deployment method. 
+* Select GitHub and confirm the connection between Heroku and GitHub.
+* Search for the project's repository name on GitHub and click "connect" to link GitHub with Heroku.
+* On the same page, scroll down and choose how to deploy the app. For this project, automatic deploys are selected and enabled.
+
+The live link can be found here - https://loppan.herokuapp.com/ 
+
 ### Local Deployment
 ## Credits
 ### Content

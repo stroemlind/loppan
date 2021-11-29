@@ -21,7 +21,6 @@ def get_player_num():
     that must be a number between 1 to 10. The loop will request
     data until the user input is valid.
     """
-    # clear()
     print("\nLet's start!\n")
 
     print('Please choose a number between 1 to 10.')
