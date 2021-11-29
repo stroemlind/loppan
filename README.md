@@ -21,7 +21,8 @@ image here
   * Play the Game 
   * Create your Own 
   * Exit
-  Each of these options will run a function that either prints text with information or instruction, starts the game, and, lastly, exit the program. 
+  Each of these options will run a function that either prints text with information or instruction, starts the game, and, lastly, exit the program.
+  Suppose the user enters a number, not between 0 to 3, a letter, or any other character or blank. In that case, a print statement will be displayed for the user, letting them know that they entered an invalid value and asking them to insert one of the valid options.
 
 * Section about the Game
     The about section gives the user informational text about the game Loppan.  All the common names it goes under in English. The user can also read about the game rules, from where the game originated, and get the acknowledgment in the western world. 
