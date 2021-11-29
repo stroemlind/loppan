@@ -55,7 +55,8 @@ image here
 
 * Git: Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
 
-## Testing Make own md file)
+## Testing
+To view all tests for this project, please refer to the [TESTING.md](TESTING.md) file.
 
 ## Deployment
 The site was deployed to Heroku. The steps to deploy are as follows:
