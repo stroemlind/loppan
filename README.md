@@ -79,5 +79,20 @@ The live link can be found here - [https://loppan.herokuapp.com/](https://loppan
 ### Local Deployment
 ## Credits
 ### Content
+* Information about how to create the menu [This Video](https://www.youtube.com/watch?v=63nw00JqHo0) was of guidance
+* This blogpost from [Computinglearner](https://computinglearner.com/how-to-create-a-menu-for-a-python-console-application/) was also of guidance to create the menu
+* Infromation about "Loppa"/Fortune tellers from [Wikipedia](https://en.wikipedia.org/wiki/Paper_fortune_teller)
+* Information about "Loppa"/Fortune tellers from [Origami heaven](http://www.origamiheaven.com/historyofthesaltcellar.htm)
+* Information on how to write a mulit-line print was found on [Pythonprogramming](https://pythonprogramming.net/multi-line-printing-python-3/)
+* Information on how to set the range in get_player_num function was found on [Stackoverflow](https://stackoverflow.com/questions/19821273/limiting-user-input-to-a-range-in-python)
+* Information on how to validate input value was found on [COmputing101](https://www.101computing.net/number-only/)
+* Infromation on how to use the clear function and import was found on [GeeksforGeeks](https://www.geeksforgeeks.org/clear-screen-python/) and my mentor Tim Nelson
+* Infromation on how to use Try/Except in code was found on [Tutorialbrain](https://www.tutorialbrain.com/python-try-except/)
+* More infromation on how to use Try/Except in code was found on [W3Schools](https://www.w3schools.com/python/python_try_except.a)
+* How to import and use the sys.exit function was given by Time Nelson during a mentor call.
+* Information on how to use enumerate() was found on [Realpython](https://realpython.com/python-enumerate/)
+* Information on how to import time and use the time.sleep() function was provided by Tim Nelson during a mentor call.
+
 ### Media
+All the images in this project are screenshots taken by the creator and only used in the README.md and TESTING.md 
 ### Acknowledgements
