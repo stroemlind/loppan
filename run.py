@@ -140,7 +140,7 @@ def get_answer(answer):
             clear()
             if player_answer != answer:
                 print(f'Oh no, you got this one wrong! Its {answer}\n')
-                print('You lost 1 life')
+                # print('You lost 1 life')
                 time.sleep(1.0)
                 # lives -= 1
                 # get_player_num()
@@ -166,10 +166,9 @@ def get_answer(answer):
 
 def play_again():
     """
-    Give the player an option to choose if they
-    want to play again
+    Give the player an option to choose through input
+    if they want to play again or leav the game.
     """
-    # play_game = True
 
     while True:
         print('Would you like to play again? y = yes, n = no')
@@ -177,18 +176,17 @@ def play_again():
 
         if game.lower() == 'y':
             print("Greate, let's play again")
-            time.sleep(2.0)
+            time.sleep(1.5)
             get_player_num()
             break
         elif game.lower() == 'n':
             print('Now leaving the game...')
-            time.sleep(1.5)
-            # exit_game()
+            print('Thank you for playing Loppan')
+            time.sleep(3.0)
             break
         else:
             print(f'{game} is not a valid option')
 
-    print('Thank you for playing Loppan')
     clear()
 
 
