@@ -138,18 +138,58 @@ def get_answer(answer):
         try:
             player_answer = int(input('Enter your answer here: '))
             clear()
-            if player_answer == answer:
-                print(f'Hooray! {answer} is the right answer\n')
+            if player_answer != answer:
+                print(f'Oh no, you got this one wrong! Its {answer}\n')
+                print('You lost 1 life')
                 time.sleep(1.0)
+                # lives -= 1
+                # get_player_num()
+                play_again()
                 break
             else:
-                print(f'Oh no, you got this one wrong! Its {answer}\n')
+                print(f'Hooray! {answer} is the right answer\n')
                 time.sleep(1.0)
+                # get_player_num()
+                play_again()
                 break
         except ValueError:
             print('Not a number: please try again.\n')
             time.sleep(1.0)
             continue
+
+        # if lives == 0:
+            # clear()
+            # print('Oh no, you lost!')
+            # time.sleep(1.0)
+            # exit_game()
+
+
+def play_again():
+    """
+    Give the player an option to choose if they
+    want to play again
+    """
+    # play_game = True
+
+    while True:
+        print('Would you like to play again? y = yes, n = no')
+        game = input('Enter y or n: \n')
+
+        if game.lower() == 'y':
+            print("Greate, let's play again")
+            time.sleep(2.0)
+            get_player_num()
+            break
+        elif game.lower() == 'n':
+            print('Now leaving the game...')
+            time.sleep(1.5)
+            # exit_game()
+            break
+        else:
+            print(f'{game} is not a valid option')
+
+    print('Thank you for playing Loppan')
+    clear()
 
 
 def print_menu():
