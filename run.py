@@ -12,9 +12,10 @@ def clear():
 
 color_list_one = ['red', 'green', 'orange', 'pink']
 color_list_two = ['blue', 'yellow', 'purple', 'brown']
+lives = 3
 
 
-def get_player_num():
+def get_player_num(lives):
     """
     Get the number input from the player.
     Run a while loop to collect the valid number from the user,
@@ -45,10 +46,10 @@ def get_player_num():
             time.sleep(1.0)
             continue
     time.sleep(1.0)
-    get_color_list(player_num)
+    get_color_list(player_num, lives)
 
 
-def get_color_list(player_num):
+def get_color_list(player_num, lives):
     """
     Get a list of colors displayed in terminal.
     Check if number input value is an even or odd number,
@@ -60,15 +61,15 @@ def get_color_list(player_num):
         for color in color_list_one:
             print(color, end=' ')
         time.sleep(1.0)
-        get_color(color_list_one)
+        get_color(color_list_one, lives)
     else:
         for color in color_list_two:
             print(color, end=' ')
         time.sleep(1.0)
-        get_color(color_list_two)
+        get_color(color_list_two, lives)
 
 
-def get_color(color_list):
+def get_color(color_list, lives):
     """
     Get a color input from the player.
     Checks if the input value matches with options,
@@ -82,7 +83,7 @@ def get_color(color_list):
                     if color == player_color:
                         clear()
                         print(f'Your choice is {player_color}.\n')
-                        math_quest(index)
+                        math_quest(index, lives)
                         break
                 break
             else:
@@ -93,7 +94,7 @@ def get_color(color_list):
             continue
 
 
-def math_quest(index):
+def math_quest(index, lives):
     """
     Get the player a math equation to solve,
     depending on value from get_color function.
@@ -120,10 +121,10 @@ def math_quest(index):
         answer = int(first/second)
 
     print('What is ', first, operator[index], second, '?')
-    get_answer(answer)
+    get_answer(answer, lives)
 
 
-def get_answer(answer):
+def get_answer(answer, lives):
     """
     Let player submit answer.
     The input value has to be an integer.
@@ -134,32 +135,27 @@ def get_answer(answer):
             player_answer = int(input('Enter your answer here: '))
             clear()
             if player_answer != answer:
+                lives -= 1
+                if lives == 0:
+                    print('You are out of lives')
+                    play_again(3)
                 print(f'Oh no, you got this one wrong! Its {answer}\n')
-                # print('You lost 1 life')
+                print(f', you have {lives} lives remaining\n')
                 time.sleep(1.0)
-                # lives -= 1
-                # get_player_num()
-                play_again()
+                get_player_num(lives)
                 break
             else:
                 print(f'Hooray! {answer} is the right answer\n')
                 time.sleep(1.0)
-                # get_player_num()
-                play_again()
+                get_player_num(lives)
                 break
         except ValueError:
             print('Not a number: please try again.\n')
             time.sleep(1.0)
             continue
 
-        # if lives == 0:
-            # clear()
-            # print('Oh no, you lost!')
-            # time.sleep(1.0)
-            # exit_game()
 
-
-def play_again():
+def play_again(lives):
     """
     Give the player an option to choose through input
     if they want to play again or leav the game.
@@ -173,13 +169,13 @@ def play_again():
             print("Greate, let's play again")
             time.sleep(1.5)
             clear()
-            get_player_num()
+            get_player_num(lives)
             break
         elif game.lower() == 'n':
             print('Now leaving the game...')
             print('Thank you for playing Loppan')
             time.sleep(2.5)
-            break
+            main()
         else:
             print(f'{game} is not a valid option')
 
@@ -301,7 +297,7 @@ def main():
             print("""
 Loppan will test your mathematical skills.
 Follow the instruction provided. """)
-            get_player_num()
+            get_player_num(lives)
         elif option == 3:
             create_own()
         elif option == 0:
