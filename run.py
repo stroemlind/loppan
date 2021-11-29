@@ -137,10 +137,10 @@ def get_answer(answer, lives):
             if player_answer != answer:
                 lives -= 1
                 if lives == 0:
-                    print('You are out of lives')
+                    print('Oh no! You are out of lives!\n')
                     play_again(3)
-                print(f'Oh no, you got this one wrong! Its {answer}\n')
-                print(f', you have {lives} lives remaining\n')
+                print(f'Oh no, you got this one wrong! Its {answer},')
+                print(f'you have {lives} lives remaining\n')
                 time.sleep(1.0)
                 get_player_num(lives)
                 break
