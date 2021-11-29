@@ -21,12 +21,8 @@ def get_player_num():
     that must be a number between 1 to 10. The loop will request
     data until the user input is valid.
     """
-    clear()
-    print("""
-Loppan will test your mathematical skills.
-Follow the instruction provided. Let's start!
-
-    """)
+    # clear()
+    print("\nLet's start!\n")
 
     print('Please choose a number between 1 to 10.')
     number = []
@@ -177,12 +173,13 @@ def play_again():
         if game.lower() == 'y':
             print("Greate, let's play again")
             time.sleep(1.5)
+            clear()
             get_player_num()
             break
         elif game.lower() == 'n':
             print('Now leaving the game...')
             print('Thank you for playing Loppan')
-            time.sleep(3.0)
+            time.sleep(2.5)
             break
         else:
             print(f'{game} is not a valid option')
@@ -207,6 +204,7 @@ def about_game():
     """
     print("""
     About the Game Loppan
+
     Loppan is the Swedish name for the childrens game: fortune teller,
     cootie catcher, chatterbox, salt cellar, whirlybird, or paku-paku.
     Loppan is a form of origami and made out of paper. The loppa are labeled
@@ -279,7 +277,7 @@ def exit_game():
     The user will exit the game
     """
     clear()
-    print('Exit Game \n')
+    # print('Exit Game \n')
 
 
 def main():
@@ -300,6 +298,10 @@ def main():
         if option == 1:
             about_game()
         elif option == 2:
+            clear()
+            print("""
+Loppan will test your mathematical skills.
+Follow the instruction provided. """)
             get_player_num()
         elif option == 3:
             create_own()
@@ -307,7 +309,8 @@ def main():
             exit_game()
             break
         else:
-            print('Please chose a number between 0 and 3')
+            print(f'{option} is not a valid input.')
+            print('Please chose a number between 0 and 3\n')
 
     print('Thank you for visiting "Loppan". Please come back again')
     sys.exit()
