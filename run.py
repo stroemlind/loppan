@@ -288,7 +288,6 @@ def exit_game():
     The user will exit the game
     """
     clear()
-    # print('Exit Game \n')
 
 
 def main():
