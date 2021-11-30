@@ -39,6 +39,10 @@ image here
 
     The math equation will always be a new one if the player, for example, picks multiplication two times in a row.
 
+    The game consists of 3 "Lives", similar to rounds the game has before ending. It allows the player to answer each round incorrectly 3 times before the game ends. If the player answers the question correctly, the game will continue. 
+
+    When the player has lost all of the lives in the game, an option will be displayed to let the player choose to either play the game again or leave the game and come back to the start menu.
+
 * Instructions on how the user can create their own paper Loppa
     The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
     To make it easier for the user to follow the instruction one at a time, the user needs to press Enter to move forward with the instructions.
