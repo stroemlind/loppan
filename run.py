@@ -137,10 +137,15 @@ def get_answer(answer, lives):
             if player_answer != answer:
                 lives -= 1
                 if lives == 0:
+                    print(f'You got this one wrong! Its {answer}\n')
+                    time.sleep(0.75)
+                    print('But wait...\n')
+                    time.sleep(1.0)
                     print('Oh no! You are out of lives!\n')
+                    time.sleep(1.5)
                     play_again(3)
-                print(f'Oh no, you got this one wrong! Its {answer},')
-                print(f'you have {lives} lives remaining\n')
+                print(f'Oh no, you got this one wrong! Its {answer}\n')
+                print(f'You have {lives} lives remaining\n')
                 time.sleep(1.0)
                 get_player_num(lives)
                 break
@@ -293,7 +298,6 @@ def main():
 
         clear()
         if option == 1:
-            # clear()
             about_game()
         elif option == 2:
             clear()
@@ -302,7 +306,6 @@ Loppan will test your mathematical skills.
 Follow the instruction provided. """)
             get_player_num(lives)
         elif option == 3:
-            # clear()
             create_own()
         elif option == 0:
             exit_game()
