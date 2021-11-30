@@ -56,11 +56,11 @@ The Flowchart of the main game function
 ## Technologies Used
 * Python: Python is used to build the core structure and code for the project
 
-* Heroku: Heroku is the deployment environment used to deploy the project and connected with the GitHub repository
+* [Heroku](https://www.heroku.com/home): Heroku is the deployment environment used to deploy the project and connected with the GitHub repository
 
-* Gitpod: Gitpod is the development environment used for developing all the code during this project
+* [Gitpod](https://gitpod.io/): Gitpod is the development environment used for developing all the code during this project
 
-* GitHub: GitHub are used to store the repository for this project
+* [GitHub](https://github.com/): GitHub are used to store the repository for this project
 
 * Git: Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
 
@@ -69,7 +69,7 @@ To view all tests for this project, please refer to the [TESTING.md](TESTING.md)
 
 ## Deployment
 The site was deployed to Heroku. The steps to deploy are as follows:
-* Go to the [Heroku](https://id.heroku.com/) site, [sign up](https://signup.heroku.com/login) for free if you do not already have an account.
+* Go to the [Heroku](https://www.heroku.com/home) site, [sign up](https://signup.heroku.com/login) for free if you do not already have an account.
     * If creating an account, fill in the signup form with name.
 * On the dashboard page, navigate to the Create New App button and click.
 * Give the app a unique name; it can not have the same name as another app, choose the region you are currently located in and select Create app.
