@@ -22,7 +22,6 @@ def get_player_num(lives):
     that must be a number between 1 to 10. The loop will request
     data until the user input is valid.
     """
-    # print("\nLet's start!\n")
 
     print('Please choose a number between 1 to 10.')
     number = []
@@ -284,7 +283,8 @@ def exit_game():
 
 def main():
     """
-    The main function of the program.
+    The main function of the program with the start menu
+    for the user to navigate through the program.
     """
     clear()
     while True:
