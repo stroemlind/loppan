@@ -1,5 +1,8 @@
 ## Testing
 ### Code Validation
+The code passed through PEP8 linter. The result confirmed there are no problems with the code.
+
+
 ### Browser Compatibility
 ### Responsiveness
 ### Tested User Stories
