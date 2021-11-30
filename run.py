@@ -156,7 +156,10 @@ def get_answer(answer, lives):
                 break
             else:
                 print(f'Hooray! {answer} is the right answer\n')
-                print(f'You have {lives} lives remaining\n')
+                if lives == 1:
+                    print(f'You have {lives} life remaining\n')
+                else:
+                    print(f'You have {lives} lives remaining\n')
                 time.sleep(1.0)
                 get_player_num(lives)
                 break
