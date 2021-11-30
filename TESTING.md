@@ -2,7 +2,7 @@
 The local terminal in Gitpod and the Code Institute, Heroku terminal, was used to test the program and code. 
 
 ### Code Validation
-The code passed through PEP8 linter. The result confirmed there are no problems with the code.
+The code passed through [PEP8 linter](http://pep8online.com/checkresult). The result confirmed there are no problems with the code.
 
 ![PEP8](documentation/testing/pep8.png)
 
