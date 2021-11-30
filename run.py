@@ -302,10 +302,10 @@ def main():
         option = ''
         try:
             option = int(input('\nWhere do you want to go? Enter number:\n'))
-        except ValueError as e:
-            print(f'Invalid data: {e}, try again.\n')
+        except ValueError:
+            print('Invalid data.')
 
-        clear()
+        # clear()
         if option == 1:
             about_game()
         elif option == 2:
