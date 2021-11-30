@@ -1,4 +1,6 @@
 ## Testing
+The local terminal in Gitpod and the Code Institute, Heroku terminal, was used to test the program and code. 
+
 ### Code Validation
 The code passed through PEP8 linter. The result confirmed there are no problems with the code.
 
