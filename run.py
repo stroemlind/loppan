@@ -221,8 +221,11 @@ def about_game():
     with colors and/or numbers.
 
     These serve as an option for the player to choose. Inside each label,
-    there is a message or a task for the player to execute.
+    there is a message or a task for the player to execute.""")
 
+    input('\nPress Enter to proceed')
+
+    print("""
     The person operating the loppa manipulates the device based on the choices
     made by the player, often folding the loppa a certain amount of time
     and then revealing one of the hidden messages chosen by the player.
