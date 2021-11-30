@@ -197,6 +197,7 @@ def about_game():
     """
     Will print information about the Game for the user
     """
+    clear()
     print("""
     About the Game Loppan
 
@@ -224,6 +225,7 @@ def create_own():
     """
     Will print information about how the user can make their own 'Loppa'
     """
+    clear()
     print("""
     Create Your Own
     To make a Loppa/fortune teller, you need:
@@ -291,6 +293,7 @@ def main():
 
         clear()
         if option == 1:
+            # clear()
             about_game()
         elif option == 2:
             clear()
@@ -299,6 +302,7 @@ Loppan will test your mathematical skills.
 Follow the instruction provided. """)
             get_player_num(lives)
         elif option == 3:
+            # clear()
             create_own()
         elif option == 0:
             exit_game()
