@@ -302,7 +302,9 @@ def main():
         elif option == 2:
             clear()
             print("""
-Loppan will test your mathematical skills.
+The game of Loppan will test your mathematical skills.
+You get 3 lives during the game, and if you answer a question incorrectly,
+you lose 1 life.
 Follow the instruction provided. """)
             print("\nLet's start!\n")
             get_player_num(lives)
