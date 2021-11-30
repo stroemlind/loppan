@@ -86,7 +86,13 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 The live link can be found here - [https://loppan.herokuapp.com/](https://loppan.herokuapp.com/)
 
 ### Local Deployment
+In order to make a local copy of this project, you can type the following into your IDE Terminal to clone this repository:
 
+- `git clone https://github.com/stroemlind/loppan.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/stroemlind/loppan)
 
 ## Credits
 ### Content
