@@ -12,7 +12,9 @@ The User Stories for this project are the following:
 
 ### Colour Scheme (explain your colors, etc....)
 ### Workflow (include screenshots of your workflow)
-image here
+The Flowchart of the main game function
+![Flowchart](documentation/flowchart/flowchart.jpeg)
+
 ## Features
 ### Existing Features
 * Menu
