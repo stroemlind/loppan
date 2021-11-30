@@ -305,7 +305,7 @@ def main():
         except ValueError:
             print('Invalid data.')
 
-        # clear()
+        clear()
         if option == 1:
             about_game()
         elif option == 2:
