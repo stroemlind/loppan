@@ -2,6 +2,7 @@
 ### Code Validation
 The code passed through PEP8 linter. The result confirmed there are no problems with the code.
 
+![PEP8](documentation/testing/pep8.png)
 
 ### Browser Compatibility
 ### Responsiveness
