@@ -22,7 +22,7 @@ def get_player_num(lives):
     that must be a number between 1 to 10. The loop will request
     data until the user input is valid.
     """
-    print("\nLet's start!\n")
+    # print("\nLet's start!\n")
 
     print('Please choose a number between 1 to 10.')
     number = []
@@ -178,7 +178,7 @@ def play_again(lives):
             break
         elif game.lower() == 'n':
             print('\nNow leaving the game...\n')
-            print('Thank you for playing Loppan')
+            print('Thank you for playing Loppan!')
             time.sleep(2.5)
             main()
         else:
@@ -304,6 +304,7 @@ def main():
             print("""
 Loppan will test your mathematical skills.
 Follow the instruction provided. """)
+            print("\nLet's start!\n")
             get_player_num(lives)
         elif option == 3:
             create_own()
