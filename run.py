@@ -7,6 +7,9 @@ from os import system, name
 
 
 def clear():
+    """"
+    Clears the terminal from clogging up
+    """
     os.system("cls" if os.name == "nt" else "clear")
 
 
@@ -144,12 +147,16 @@ def get_answer(answer, lives):
                     time.sleep(1.5)
                     play_again(3)
                 print(f'Oh no, you got this one wrong! Its {answer}\n')
-                print(f'You have {lives} lives remaining\n')
+                if lives == 1:
+                    print(f'You have {lives} life remaining\n')
+                else:
+                    print(f'You have {lives} lives remaining\n')
                 time.sleep(1.0)
                 get_player_num(lives)
                 break
             else:
                 print(f'Hooray! {answer} is the right answer\n')
+                print(f'You have {lives} lives remaining\n')
                 time.sleep(1.0)
                 get_player_num(lives)
                 break
@@ -170,7 +177,7 @@ def play_again(lives):
         game = input('Enter y or n: \n')
 
         if game.lower() == 'y':
-            print("\nGreate, let's play again")
+            print("\nGreat, let's play again")
             time.sleep(1.5)
             clear()
             get_player_num(lives)
@@ -314,11 +321,12 @@ Follow the instruction provided. """)
             exit_game()
             break
         else:
-            print(f'{option} is not a valid input.')
+            print('Not a valid input.')
             print('Please chose a number between 0 and 3\n')
 
     print('Thank you for visiting "Loppan". Please come back again')
     sys.exit()
 
 
-main()
+if __name__ == '__main__':
+    main()
