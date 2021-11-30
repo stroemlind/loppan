@@ -171,13 +171,13 @@ def play_again(lives):
         game = input('Enter y or n: \n')
 
         if game.lower() == 'y':
-            print("Greate, let's play again")
+            print("\nGreate, let's play again")
             time.sleep(1.5)
             clear()
             get_player_num(lives)
             break
         elif game.lower() == 'n':
-            print('Now leaving the game...')
+            print('\nNow leaving the game...\n')
             print('Thank you for playing Loppan')
             time.sleep(2.5)
             main()
