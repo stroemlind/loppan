@@ -1,4 +1,9 @@
 # Loppan
+
+![Loppa 1](documentation/images/loppa1.jpeg)
+
+![Loppa 2](documentation/images/loppa2.jpeg)
+
 Loppan is the Swedish word for the fun yet simple paper origami game: pick a color, fortune teller, or chatterbox (It's a game with many names).
 It's a game where you create a "Loppa"/fortune teller with 8 different tasks or questions to execute. Each assignment or question has its color. This Loppan game is a math learning game with basic math equations for the player to solve.
 
