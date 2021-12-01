@@ -18,7 +18,10 @@ The User Stories for this project are the following:
 * The game and all its functions and features.
 * Instructions on how the user can create their own paper Loppa.
 
-### Workflow (include screenshots of your workflow)
+### Workflow
+The Flowchart of the main program function
+![Workflow](documentation/flowchart/workflow-main.jpeg)
+
 The Flowchart of the main game function
 ![Flowchart](documentation/flowchart/flowchart.jpeg)
 
