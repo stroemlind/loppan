@@ -26,88 +26,88 @@ The Flowchart of the main game function
   * Create your Own 
   * Exit
   
-  Each of these options will run a function that either prints text with information or instruction, starts the game, and, lastly, exit the program.
-  Suppose the user enters a number, not between 0 to 3, a letter, or any other character or blank. In that case, a print statement will be displayed for the user, letting them know that they entered an invalid value and asking them to insert one of the valid options. 
+Each of these options will run a function that either prints text with information or instruction, starts the game, and, lastly, exit the program.
+Suppose the user enters a number, not between 0 to 3, a letter, or any other character or blank. In that case, a print statement will be displayed for the user, letting them know that they entered an invalid value and asking them to insert one of the valid options. 
 
-  ![Menu](documentation/testing/menu.png)
+![Menu](documentation/testing/menu.png)
 
-  See [TESTING.md](TESTING.mg) for more images about print statement for invalid input.
+See [TESTING.md](TESTING.mg) for more images about print statement for invalid input.
 
 #### Section about the Game
-    The about section gives the user informational text about the game Loppan.  All the common names it goes under in English. The user can also read about the game rules, from where the game originated, and get the acknowledgment in the western world. 
-    The section also provides references to websites with more information.
+The about section gives the user informational text about the game Loppan.  All the common names it goes under in English. The user can also read about the game rules, from where the game originated, and get the acknowledgment in the western world. 
+The section also provides references to websites with more information.
 
-    ![About Game 1](documentation/testing/about-game1.png)
+![About Game 1](documentation/testing/about-game1.png)
     
-    ![About Game 2](documentation/testing/about-game2.png)
+![About Game 2](documentation/testing/about-game2.png)
 
 #### Game
-    The game starts with the user selecting a number between 1 to 10. 
-    For the player to submit a number is done with an input request. If the user tries to submit a number lower than 1 or higher than 10, a letter, a special sign, or a blank space, they will receive an Error message telling them to insert the correct value. Once the right value is submitted, the terminal will print the chosen number and take the player to the next step of the game.
+The game starts with the user selecting a number between 1 to 10. 
+For the player to submit a number is done with an input request. If the user tries to submit a number lower than 1 or higher than 10, a letter, a special sign, or a blank space, they will receive an Error message telling them to insert the correct value. Once the right value is submitted, the terminal will print the chosen number and take the player to the next step of the game.
 
-    ![Game Start](documentation/testing/play-game.png)
-
-
-    When the Loppa has validated the chosen number, a list will be printed in the terminal, containing 4 colors, text instruction, and an input field. 
-    The instruction will tell the player to choose 1 of the 4 colors from the given list into the input field. As with the number input, if the player tries to submit a value that is not one of the colors from the list or a number or other special sign, they will get an Error message, telling them to submit the correct value to proceed with the game.
-    * See [TESTING.md](TESTING.mg) for more images about print statement for invalid input.
-
-    List 1:
-    ![List 1](documentation/testing/choose-color1.png)
-
-    List 2:
-    ![List 2](documentation/testing/choose-color2.png)
+![Game Start](documentation/testing/play-game.png)
 
 
-    When the user has submitted a valid value, they will get a task to execute from the selected color. In this case, a math equation of either addition, subtraction, multiplication, or division. 
+When the Loppa has validated the chosen number, a list will be printed in the terminal, containing 4 colors, text instruction, and an input field. 
+The instruction will tell the player to choose 1 of the 4 colors from the given list into the input field. As with the number input, if the player tries to submit a value that is not one of the colors from the list or a number or other special sign, they will get an Error message, telling them to submit the correct value to proceed with the game.
+* See [TESTING.md](TESTING.mg) for more images about print statement for invalid input.
 
-    The math equation will always be a new one if the player, for example, picks multiplication two times in a row.
+List 1:
+![List 1](documentation/testing/choose-color1.png)
 
-    ![multiplication1](documentation/testing/orange1.png)
-
-    ![multiplication2](documentation/testing/orange2.png)
-
-    ![multiplication3](documentation/testing/purple1.png)
-
-    ![multiplication4](documentation/testing/purple2.png)
-
-    See [TESTING.md](TESTING.mg) for more images about the other math equations.
+List 2:
+![List 2](documentation/testing/choose-color2.png)
 
 
-    The game consists of 3 "Lives", similar to rounds the game has before ending. It allows the player to answer each round incorrectly 3 times before the game ends. If the player answers the question correctly, the game will continue. 
+When the user has submitted a valid value, they will get a task to execute from the selected color. In this case, a math equation of either addition, subtraction, multiplication, or division. 
 
-    ![Lives1](documentation/testing/lives1.png)
+The math equation will always be a new one if the player, for example, picks multiplication two times in a row.
 
-    ![Lives2](documentation/testing/lives2.png)
+![multiplication1](documentation/testing/orange1.png)
 
-    ![Lives3](documentation/testing/lives3.png)
+![multiplication2](documentation/testing/orange2.png)
 
-    When the player has lost all of the lives in the game, an option will be displayed to let the player choose to either play the game again or leave the game and come back to the start menu.
+![multiplication3](documentation/testing/purple1.png)
 
-    ![Play Again](documentation/testing/play-again.png)
+![multiplication4](documentation/testing/purple2.png)
 
-    ![Yes](documentation/testing/again-y.png)
+See [TESTING.md](TESTING.mg) for more images about the other math equations.
 
-    ![No](documentation/testing/again-n.png)
+
+The game consists of 3 "Lives", similar to rounds the game has before ending. It allows the player to answer each round incorrectly 3 times before the game ends. If the player answers the question correctly, the game will continue. 
+
+![Lives1](documentation/testing/lives1.png)
+
+![Lives2](documentation/testing/lives2.png)
+
+![Lives3](documentation/testing/lives3.png)
+
+When the player has lost all of the lives in the game, an option will be displayed to let the player choose to either play the game again or leave the game and come back to the start menu.
+
+![Play Again](documentation/testing/play-again.png)
+
+![Yes](documentation/testing/again-y.png)
+
+![No](documentation/testing/again-n.png)
 
 #### Instructions on how the user can create their own paper Loppa
-    The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
-    To make it easier for the user to follow the instruction one at a time, the user needs to press Enter to move forward with the instructions.
+The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
+To make it easier for the user to follow the instruction one at a time, the user needs to press Enter to move forward with the instructions.
 
-    Step 1: 
-    ![Create Own Step 1](documentation/testing/create1.png)
+Step 1: 
+![Create Own Step 1](documentation/testing/create1.png)
 
-    Step 2:
-    ![Create Own Step 2](documentation/testing/create2.png)
+Step 2:
+![Create Own Step 2](documentation/testing/create2.png)
 
-    Step 3:
-    ![Create Own Step 3](documentation/testing/create3.png)
+Step 3:
+![Create Own Step 3](documentation/testing/create3.png)
 
-    Step 4:
-    ![Create Own Step 4](documentation/testing/create4.png)
+Step 4:
+![Create Own Step 4](documentation/testing/create4.png)
 
-    Step 5:
-    ![Create Own Step 5](documentation/testing/create5.png)
+Step 5:
+![Create Own Step 5](documentation/testing/create5.png)
 
 ### Features Left to Implement
 * A feature to implement would be to connect more "Loppor"/Fortune tellers; for example, the player could choose to play one with math or words or learn words from different languages.
