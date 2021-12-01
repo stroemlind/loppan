@@ -157,23 +157,21 @@ When the player has answered the questions wrong 3 times, a message will display
 
 If the player wants to play again or not, they can only go forward with their decision if the input value is "y" for yes or "n" for no. Suppose the player tries to put in another than the valid value, an error message will display in the terminal, telling the player to enter a valid value.
 
-![Input test 1](documentation/testing/)
+![Input test 1](documentation/testing/again-test1.png)
 
-![Input test 2](documentation/testing/)
+![Input test 2](documentation/testing/again-test2.png)
 
 If the player decides to play again, the game will be reset and start again with 3 new lives. 
 
-![](documentation/testing/)
+![Back to game](documentation/testing/play-again-game.png)
 
 If the player decides not to play another game, a message will display in the terminal, thanking the player for playing the game and taking them back to the start menu.
 
-![](documentation/testing/)
+![Back to menu](documentation/testing/menu.png)
 
 * Instructions on how the user can create their own paper Loppa
 When selected, the flow of the text is going as it should. The user can only move forward if they press Enter. If the user presses another key, then nothing will happen. The user needs to press Enter the whole way to get back to the menu.
 
-![](documentation/testing/)
-![](documentation/testing/)
-![](documentation/testing/)
+![Create own test 1](documentation/testing/create-test.png)
 
 ### Unfixed Bugs
