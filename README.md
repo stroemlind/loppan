@@ -19,7 +19,7 @@ The Flowchart of the main game function
 
 ## Features
 ### Existing Features
-* Menu
+#### Menu
   The user will first encounter a menu when starting the program. The menu gives the user four options to choose between: 
   * About the Game
   * Play the Game 
@@ -33,7 +33,7 @@ The Flowchart of the main game function
 
   See [TESTING.md](TESTING.mg) for more images about print statement for invalid input.
 
-* Section about the Game
+#### Section about the Game
     The about section gives the user informational text about the game Loppan.  All the common names it goes under in English. The user can also read about the game rules, from where the game originated, and get the acknowledgment in the western world. 
     The section also provides references to websites with more information.
 
@@ -41,11 +41,12 @@ The Flowchart of the main game function
     
     ![About Game 2](documentation/testing/about-game2.png)
 
-* Game
+#### Game
     The game starts with the user selecting a number between 1 to 10. 
     For the player to submit a number is done with an input request. If the user tries to submit a number lower than 1 or higher than 10, a letter, a special sign, or a blank space, they will receive an Error message telling them to insert the correct value. Once the right value is submitted, the terminal will print the chosen number and take the player to the next step of the game.
 
     ![Game Start](documentation/testing/play-game.png)
+
 
     When the Loppa has validated the chosen number, a list will be printed in the terminal, containing 4 colors, text instruction, and an input field. 
     The instruction will tell the player to choose 1 of the 4 colors from the given list into the input field. As with the number input, if the player tries to submit a value that is not one of the colors from the list or a number or other special sign, they will get an Error message, telling them to submit the correct value to proceed with the game.
@@ -56,6 +57,7 @@ The Flowchart of the main game function
 
     List 2:
     ![List 2](documentation/testing/choose-color2.png)
+
 
     When the user has submitted a valid value, they will get a task to execute from the selected color. In this case, a math equation of either addition, subtraction, multiplication, or division. 
 
@@ -70,6 +72,7 @@ The Flowchart of the main game function
     ![multiplication4](documentation/testing/purple2.png)
 
     See [TESTING.md](TESTING.mg) for more images about the other math equations.
+
 
     The game consists of 3 "Lives", similar to rounds the game has before ending. It allows the player to answer each round incorrectly 3 times before the game ends. If the player answers the question correctly, the game will continue. 
 
@@ -87,7 +90,7 @@ The Flowchart of the main game function
 
     ![No](documentation/testing/again-n.png)
 
-* Instructions on how the user can create their own paper Loppa
+#### Instructions on how the user can create their own paper Loppa
     The instruction section is a walk-through guide that the user can follow to create their own Loppa. It provides the user with the necessary tools and supplements that are needed to make one.
     To make it easier for the user to follow the instruction one at a time, the user needs to press Enter to move forward with the instructions.
 
