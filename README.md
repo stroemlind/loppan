@@ -112,6 +112,8 @@ The Flowchart of the main game function
 ### Features Left to Implement
 * A feature to implement would be to connect more "Loppor"/Fortune tellers; for example, the player could choose to play one with math or words or learn words from different languages.
 
+* Install coloram and apply color to the game would be a nice feature if there were more colors to choose. 
+
 ## Technologies Used
 * Python: Python is used to build the core structure and code for the project
 
