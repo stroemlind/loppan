@@ -1,5 +1,7 @@
 ## Testing
 The local terminal in Gitpod and the Code Institute, Heroku terminal, was used to test the program and code. 
+Throughout the testing of each function, I checked the error messages, tried different approaches how to rewriting or fixing the code. 
+To see if the math equations' calculation was correct or not, I had a calculator at hand. 
 
 ### Code Validation
 The code passed through [PEP8 linter](http://pep8online.com/checkresult). The result confirmed there are no problems with the code.
