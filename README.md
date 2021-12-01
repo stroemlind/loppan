@@ -176,3 +176,7 @@ All the images in this project are screenshots taken by the creator and only use
 * [Amiresonvsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Floppan.herokuapp.com%2F) for making the responsiveness image
 
 ### Acknowledgements
+First, I would like to acknowledge my mentor Tim Nelson, who always tries to help me create good a project as possible. He provided me with information about some build-in functions and recommended I look into other program functions. He gave feedback and ideas on how I could evolve the whole program and game to where it is now. 
+Tim also helped me recommend adding an if/else statement with print() to the get_answer function. That would print different messages depending on how many lives the player had left during the game.
+I would also like to acknowledge the help from my friend Johan, who helped me with feedback and implementing the 3 lives/tries a player has during the game.
+I also want to thank the Code Institute tutor John, who gave me significant input on how to approach debugging my code in another way.
