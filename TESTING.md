@@ -139,7 +139,7 @@ The player will be able to keep track of their lives through a printed message i
 
 ![Correct test 1](documentation/testing/correct-test1.png)
 
-![Correct test 2](documentation/testing/correcr-test2.png)
+![Correct test 2](documentation/testing/correct-test2.png)
 
 * Incorrect answer:
 
