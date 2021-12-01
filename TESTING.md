@@ -175,3 +175,4 @@ When selected, the flow of the text is going as it should. The user can only mov
 ![Create own test 1](documentation/testing/create-test.png)
 
 ### Unfixed Bugs
+The clear() function does not clear the terminal to the top. Depending on how much the user goes through the program, some of the previous visit sections are still showing.
