@@ -89,10 +89,10 @@ def get_color(color_list, lives):
                         break
                 break
             else:
-                print(f'{player_color} is not a valid color, try again.\n')
+                print(f'{player_color} is not a valid color, try again.')
                 continue
         except ValueError:
-            print(f'{player_color} is not a valid color, please try again.\n')
+            print(f'{player_color} is not a valid color, please try again.')
             continue
 
 
