@@ -125,11 +125,11 @@ If the player tries to answer the question with a character that is not a number
 
 When the player has answered the question, depending on if the answer is correct or incorrect, a message will display in the terminal, letting the player know if they are correct 
 
-![](documentation/testing/)
+![Correct](documentation/testing/correct-print.png)
 
 or incorrect:
 
-![](documentation/testing/)
+![Incorrect](documentation/testing/wrong-print.png)
 
 
 If the player answers a question wrong, they will lose on "life" of the 3 given at the start of the game. If they answer the question correctly, the game will go on back to choose a number again. The number of lives will only change if the player answers the question wrong. 
@@ -137,9 +137,11 @@ The player will be able to keep track of their lives through a printed message i
 
 * Correct answer:
 
-![Correct test 1](documentation/testing/correct-test1.png)
+![Correct test 1](documentation/testing/correct-lives1.png)
 
-![Correct test 2](documentation/testing/correct-test2.png)
+![Correct test 2](documentation/testing/correct-lives2.png)
+
+![Correct test 3](documentation/testing/correct-lives3.png)
 
 * Incorrect answer:
 
@@ -151,13 +153,13 @@ The player will be able to keep track of their lives through a printed message i
 
 When the player has answered the questions wrong 3 times, a message will display in the terminal letting the player know that they lost all of their lives and ask the player if they want to play the game again or not. 
 
-![](documentation/testing/)
+![Play again](documentation/testing/play-again.png)
 
 If the player wants to play again or not, they can only go forward with their decision if the input value is "y" for yes or "n" for no. Suppose the player tries to put in another than the valid value, an error message will display in the terminal, telling the player to enter a valid value.
 
-![](documentation/testing/)
-![](documentation/testing/)
-![](documentation/testing/)
+![Input test 1](documentation/testing/)
+
+![Input test 2](documentation/testing/)
 
 If the player decides to play again, the game will be reset and start again with 3 new lives. 
 
