@@ -148,6 +148,13 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 * Select GitHub and confirm the connection between Heroku and GitHub.
 * Search for the project's repository name on GitHub and click "connect" to link GitHub with Heroku.
 * On the same page, scroll down and choose how to deploy the app. For this project, automatic deploys are selected and enabled.
+* Create a **Procfile** for Heroku, using the following command:
+    - `echo web: node index.js > Procfile`
+* Create a **requirements.txt** file for Heroku, using the following command:
+    - `pip3 freeze --local > requirements.txt`
+
+Note: this project doesn't make use of any additional Python packages, so the [requirements.txt](requirements.txt) file is intentionally empty. However, should you need to install any packages from a requirements file, use the following command:
+- `pip3 install -r requirements.txt`
 
 The live link can be found here - [https://loppan.herokuapp.com/](https://loppan.herokuapp.com/)
 
@@ -172,7 +179,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 * Infromation on how to use the clear function and import was found on [GeeksforGeeks](https://www.geeksforgeeks.org/clear-screen-python/) and my mentor Tim Nelson
 * Infromation on how to use Try/Except in code was found on [Tutorialbrain](https://www.tutorialbrain.com/python-try-except/)
 * More infromation on how to use Try/Except in code was found on [W3Schools](https://www.w3schools.com/python/python_try_except.a)
-* How to import and use the sys.exit function was given by Time Nelson during a mentor call.
+* How to import and use the sys.exit function was given by Tim Nelson during a mentor call.
 * Information on how to use enumerate() was found on [Realpython](https://realpython.com/python-enumerate/)
 * Information on how to import time and use the time.sleep() function was provided by Tim Nelson during a mentor call.
 
