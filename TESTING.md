@@ -24,6 +24,11 @@ The code passed through [PEP8 linter](http://pep8online.com/checkresult). The re
 
   ![Edge](documentation/testing/about-game2.png)
 
+* Safari
+  * The program runs without any issues in the Safari browser
+
+  ![Safari](documentation/testing/safari.png)
+
 ### Tested User Stories
 #### Menu
 To navigate through the menu, the user can choose between the numbers 0 to 3. If the user enters a value that is not the number between 0 to 3, the print statement displays on the screen and asks the user to enter a valid value. 
