@@ -20,6 +20,8 @@ The User Stories for this project are the following:
 
 ### Workflow
 The Flowchart of the main program function
+ - igen = again in Swedish
+
 ![Workflow](documentation/flowchart/workflow-main.jpeg)
 
 The Flowchart of the main game function
