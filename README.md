@@ -120,7 +120,7 @@ Step 5:
 * Install coloram and apply color to the game would be a nice feature if there were more colors to choose. 
 
 ## Technologies Used
-* Python: Python is used to build the core structure and code for the project
+* [Python](https://www.python.org/): Python is used to build the core structure and code for the project
 
 * [Heroku](https://www.heroku.com/home): Heroku is the deployment environment used to deploy the project and connected with the GitHub repository
 
@@ -128,7 +128,7 @@ Step 5:
 
 * [GitHub](https://github.com/): GitHub are used to store the repository for this project
 
-* Git: Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
+* [Git](https://atlassian.com/git/): Git is used to create backups of the project and ensure that all versions of the project is pushed to GitHub
 
 ## Testing
 To view all tests for this project, please refer to the [TESTING.md](TESTING.md) file.
